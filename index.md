@@ -3,7 +3,9 @@ bla bla...
 
 ## 1-Building a Simple MIDI Synthesizer
 
-We are going to build a MIDI synthesizer from scratch (without using the Faust libraries). Everything will be done online using the Faust online editor [https://faust.grame.fr/ide](https://faust.grame.fr/ide)
+We are going to build a MIDI synthesizer from scratch (without using the Faust libraries). Everything will be done online, using the Faust online editor [https://faust.grame.fr/ide](https://faust.grame.fr/ide)
+
+<img src="{{ site.url }}/faustworkshop/assets/faust-ide.png" width="80%" class="mx-auto d-block">
 
 ### Phase Generator
 
@@ -56,6 +58,7 @@ Let's define a function to do that:
 ```
 decimalpart(x) = x - int(x);
 ```
+For example if `x` is `3.14159`, then `int(3.14159)` is `3`, therefore `decimalpart(3.14159) = 3.14159-3 = 0.14159`.
 
 We can now use that function to transform our ramp into a sawtooth It is then tempting to write:
 
