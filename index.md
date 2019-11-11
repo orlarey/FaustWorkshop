@@ -9,12 +9,12 @@ We are going to build a MIDI synthesizer from scratch (without using the Faust l
 
 The first step is to build a _phase generator_ that produces a periodic sawtooth signal between 0 and 1. Here is the signal we want to generate:
 
-<img src="{{site.url}}/assets/phase-sig.png" width="80%" class="mx-auto d-block">
+<img src="{{ site.url }}/assets/phase-sig.png" width="80%" class="mx-auto d-block">
 
 #### Ramp
 
 In order to produce the above signal we need first to produce a ramp signal
-<img src="{{site.url}}/assets/ramp-sig.png" width="80%" class="mx-auto d-block">
+<img src="{{ site.url }}/assets/ramp-sig.png" width="80%" class="mx-auto d-block">
 
 using the following Faust program:
 
@@ -31,7 +31,7 @@ where `0.125`, `+` and `_` are *primitives* of the language (predefined elementa
 
 To understand the above diagram let's annotate it with its mathematical semantics.
 
-<img src="{{site.url}}/assets/ramp-diag-math.svg" width="80%" class="mx-auto d-block">
+<img src="{{ site.url }}/assets/ramp-diag-math.svg" width="80%" class="mx-auto d-block">
 
 As we can see in the diagram, the formula of the output signal is: $y(t) = y(t-1) + 0.125$
 
@@ -198,4 +198,4 @@ effect = dm.zita_light;
 ```
 
 
-<img src="{{site.url}}/assets/poly-effect.png" width="80%" class="mx-auto d-block">
+<img src="{{ site.url }}/assets/poly-effect.png" width="80%" class="mx-auto d-block">
