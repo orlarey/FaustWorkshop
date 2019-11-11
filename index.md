@@ -33,7 +33,7 @@ To understand the above diagram let's annotate it with its mathematical semantic
 
 <img src="{{ site.url }}/faustworkshop/assets/ramp-diag-math.svg" width="80%" class="mx-auto d-block">
 
-As we can see in the diagram, the formula of the output signal is: $y(t) = y(t-1) + 0.125$
+As we can see in the diagram, the formula of the output signal is: $$y(t) = y(t-1) + 0.125$$
 
 We can compute the first values of $y(t)$:
 
