@@ -3,7 +3,7 @@ bla bla...
 
 ## 1-Building a Simple MIDI Synthesizer
 
-We are going to build a MIDI synthesizer from scratch (without using the Faust libraries). Everything will be done online using the Faust online editor https://faust.grame.fr/ide
+We are going to build a MIDI synthesizer from scratch (without using the Faust libraries). Everything will be done online using the Faust online editor [https://faust.grame.fr/ide]
 
 ### Phase Generator
 
