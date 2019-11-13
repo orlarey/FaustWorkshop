@@ -1,4 +1,4 @@
-# Faust Workshop
+
 The slides are available here: <a href="{{ site.url }}/faustworkshop/assets/slides.pdf">slides</a>
 
 
