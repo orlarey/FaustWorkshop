@@ -1,5 +1,5 @@
 # Faust Workshop
-The slides are available here: ["{{ site.url }}/faustworkshop/assets/slides.pdf"]("{{ site.url }}/faustworkshop/assets/slides.pdf")
+The slides are available here: [{{ site.url }}/faustworkshop/assets/slides.pdf]({{ site.url }}/faustworkshop/assets/slides.pdf)
 
 ## 1-Building a Simple MIDI Synthesizer
 
