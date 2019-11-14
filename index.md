@@ -1,6 +1,6 @@
 
 The slides are available here: <a href="{{ site.url }}/faustworkshop/assets/slides.pdf">slides</a>
-The quickreference is available here: <a href="{{ site.url }}/faustworkshop/assets/faust-quick-reference.pdf">slides</a>
+The quickreference is available here: <a href="{{ site.url }}/faustworkshop/assets/faust-quick-reference.pdf">quick reference</a>
 
 
 ## 1-Building a Simple MIDI Synthesizer
